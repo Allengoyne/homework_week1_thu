@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.hero {
+  background-image: url("../assets/header.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 525px;
+
+}
+
+header.hero-name, .hero-deck {
+  background-repeat:no-repeat;
+  background-size: cover;
+  // height: 525px;
+}
+
+.company-branding {
+  margin-left: 140px;
+  padding-top: 10px;
+}
+
+.company-branding img.company-logo {
+  width: 40px;
+  padding: 0px;
+  margin: 5px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+
+p.page-title {
+  margin: 15px auto;
+  display: inline-block;
+}
+
+.top-nav {
+  float: right;
+  margin: 0 165px 0 0;
+  padding: 20px;
+}
+
+.top-nav a{
+  text-decoration: none;
+  color: #000;
+  float: right;
+  padding: 0 5px 3px 3px;
+
+}
+
+.top-nav a img {
+  // width: 15px;
+  margin-left: 5px;
+}
+
+.centerText {
+  margin-top: 100px;
+}
+
+.hero-name {
+  font-size: 83px;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.hero-deck {
+  font-size: 1em;
+  color: #000;
+}
+
+.front-page {
+  width: 66.66%;
+}
+
+.front-page .headline h1 {
+  font-size: 4em;
+  float: left;
+  padding-left: 25px
+
+}
+
+.front-page img {
+  width: 30px;
+}
+
+.social button {
+  background-color: #AAB9C4;
+}
+
+.popular-posts {
+  padding: 0;
+}
+
+.image-posts a {
+display: inline-block;
+margin: 0;
+float: left;
+
+}
+
+.image-posts h4 {
+  text-align: center;
+
+}
+
+.post {
+  position: relative;
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  h4 {
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+  }
+}
