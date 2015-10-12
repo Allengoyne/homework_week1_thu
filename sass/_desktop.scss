@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-size: 14px;
+  overflow: visible;
 }
 
 .hero {
@@ -8,13 +9,11 @@
   background-repeat:no-repeat;
   background-size: cover;
   height: 525px;
-
 }
 
 header.hero-name, .hero-deck {
   background-repeat:no-repeat;
   background-size: cover;
-  // height: 525px;
 }
 
 .company-branding {
@@ -51,7 +50,6 @@ p.page-title {
 }
 
 .top-nav a img {
-  // width: 15px;
   margin-left: 5px;
 }
 
@@ -73,15 +71,33 @@ p.page-title {
 }
 
 .front-page {
-  width: 66.66%;
+  width: 50%;
+  overflow: visible;
+}
+
+.front-page .headline {
+  float: left;
+  overflow: visible;
 }
 
 .front-page .headline h1 {
-  font-size: 4em;
+  font-size: 55px;
   float: left;
-  padding-left: 25px
-
+  padding-left: 25px;
+  overflow: visible;
 }
+
+.front-page .story-date {
+ float: right;
+ overflow: visible;
+ display: inline-block;
+}
+
+
+.story-date {
+  float: right;
+}
+
 
 .front-page img {
   width: 30px;
@@ -91,30 +107,93 @@ p.page-title {
   background-color: #AAB9C4;
 }
 
-.popular-posts {
+  .popular-posts {
   padding: 0;
+  display: inline-block;
 }
 
-.image-posts a {
-display: inline-block;
-margin: 0;
-float: left;
+.popular-posts h1 {
+    text-align: center;
+    font-size: 3.57em;
+    margin: 45px 0 50px 0;
+}
 
+ .popular-posts {
+   overflow: auto;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ .image-posts {
+  //  width: 100%;
+   float: left;
+   display: block;
+ }
+
+.image-posts a {
+  display: inline-block;
+  margin: 0 0 0 0;
+  width: 25%;
 }
 
 .image-posts h4 {
   text-align: center;
+  width: 100%;
+  font-size: 2.14em;
+}
+
+.post h4 {
+  position: absolute;
+  bottom: 10px;
+  // top: 10px;
+  text-decoration: none;
+  color: #fff;
 
 }
 
+
+
 .post {
   position: relative;
-  width: 25vw;
-  height: 25vw;
   float: left;
-  h4 {
-    position: absolute;
-    bottom: 10px;
-    top: 10px;
-  }
+}
+
+
+
+.bottom {
+  height: 100px;
+  background: #083452;
+  overflow: hidden;
+  padding: 0;
+}
+
+.meta nav {
+  // margin-right: 165px;
+}
+
+footer nav li a {
+  text-decoration: none;
+  // font-size: 1.5em;
+  padding: 5px;
+  color: #fff;
+}
+
+footer nav li {
+  float: right;
+  display: inline-block;
+}
+
+.meta {
+  margin: 0 0 0 170px;
+  float: left;
+}
+
+.TIY-logo {
+  width: 60px;
+  margin: 25px 5px 30px 0;
+}
+.legal {
+  color: #fff;
+  display: inline-block;
 }
