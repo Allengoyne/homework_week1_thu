@@ -60,7 +60,8 @@ p.page-title {
 
 .front-page {
   width: 50%;
-  overflow: visible; }
+  overflow: visible;
+  font-family: "open sans", sans-serif; }
 
 .front-page .headline {
   float: left;
@@ -74,26 +75,49 @@ p.page-title {
   font-family: "oswald", sans-serif; }
 
 .front-page .story-date {
-  float: right;
+  float: inherit;
   overflow: visible;
   display: inline-block; }
 
+.deck .story-date {
+  overflow: visible; }
+
 .story-date {
-  float: right; }
+  overflow: visible;
+  display: inline-block; }
 
 .front-page img {
   width: 30px; }
 
+.pullquote {
+  color: #2D73AA; }
+
+.social img {
+  height: 30px;
+  float: left;
+  background-color: #5D676E; }
+
+.social button a {
+  margin: 10px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: block; }
+
 .social button {
   background-color: #AAB9C4; }
 
+.social button:last-child {
+  background-color: #1771B5; }
+
 .popular-posts {
-  padding: 0;
   display: inline-block; }
 
 .popular-posts h1 {
   text-align: center;
-  font-size: 3.57em;
+  font-family: "oswald", sans-serif;
+  font-size: 4.07em;
+  font-weight: bold;
   margin: 45px 0 50px 0; }
 
 .popular-posts {
