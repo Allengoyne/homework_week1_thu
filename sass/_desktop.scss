@@ -72,10 +72,53 @@ p.page-title {
 }
 
 .front-page {
-  width: 50%;
+  width: 52%;
   overflow: visible;
   font-family: "open sans", sans-serif;
 }
+
+// Sidebar
+.sidebar {
+width: 35%;
+float: right;
+margin: 6em;
+}
+
+.bigger-avatar {
+  margin: 0 0 0 125px;
+}
+
+.byline {
+  margin: 5px 0 0 120px;
+  font-size: 16px;
+  color: #3C7EB8;
+  font-weight: bold;
+}
+
+.social-sidebar p {
+  display: inline;
+  color: #A7B6C2;
+  padding: 10px;
+
+}
+
+.social-sidebar {
+  margin: 45px 0 0 35px;
+
+}
+
+.ad-image {
+  margin: 25px;
+}
+
+.ad-deck {
+  margin: 10px 0 0 192px;
+  color: #A7B6C2;
+  text-decoration: underline;
+
+}
+
+// Article
 
 .front-page .headline {
   float: left;
@@ -83,7 +126,7 @@ p.page-title {
 }
 
 .front-page .headline h1 {
-  font-size: 55px;
+  font-size: 3.92em;
   float: left;
   padding-left: 25px;
   overflow: visible;
@@ -103,12 +146,26 @@ overflow: visible;
 .story-date {
   overflow: visible;
   display: inline-block;
+  color: #ACBAC5;
 
+
+}
+
+.front-page {
+  padding: 70px 0 25px 130px;
+  line-height: 1.42em;
 }
 
 .front-page img {
   width: 30px;
+  margin-right: 10px;
 }
+
+.headline .deck {
+  color: #6D9ECB;
+}
+
+
 
 .pullquote {
   color: #2D73AA;
@@ -142,6 +199,8 @@ overflow: visible;
   background-color: #1771B5;
 }
 
+// Popular Posts bottom banner
+
 .popular-posts {
   // padding: 0;
   display: inline-block;
@@ -149,10 +208,11 @@ overflow: visible;
 
 .popular-posts h1 {
   text-align: center;
-  font-family: "oswald", sans-serif;
+  font-family: "open sans", sans-serif;
   font-size: 4.07em;
   font-weight: bold;
-  margin: 45px 0 50px 0;
+  margin: 90px 0 50px 0;
+  border-top: 1px solid #E4E9EC;
 }
 
  .popular-posts {
@@ -191,6 +251,8 @@ overflow: visible;
   position: relative;
   float: left;
 }
+
+// Footer
 
 .bottom {
   height: 100px;
